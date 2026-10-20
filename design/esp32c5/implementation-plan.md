@@ -21,7 +21,7 @@ Current status: **End to end verified on a real D1-30B with the engine stopped.*
 | 6B | Fuel rate estimate and trip parameters | open: item 6 (calibration) |
 | 7 | Permanent installation | pending |
 | 8 | Full engine validation (engine running) | pending |
-| 9 | Publish to GitHub | pending |
+| 9 | Publish to GitHub | done |
 
 ### Done: Sub-Tasks 1–5
 
@@ -73,12 +73,12 @@ Current status: **End to end verified on a real D1-30B with the engine stopped.*
 
 ### Sub-Task 9: Publish to GitHub
 
-The project is not a Git repository yet.
+Published at <https://github.com/bhavers/j1939-n2k-converter> (public, Apache 2.0).
 
-- [ ] Run `git init` and check that [`.gitignore`](../../.gitignore) is in place.
-- [ ] Run `git status --untracked-files=all` and confirm [`wifi_secrets.h`](../../firmware-esp32c5/src/wifi_secrets.h) is **not** listed.
-- [ ] Run `git grep -n -i -E "password|ssid"` and confirm no real credentials appear in any tracked file.
-- [ ] Make the first commit, create the GitHub repository, and push.
+- [x] `git init` with [`.gitignore`](../../.gitignore) in place.
+- [x] `git status --untracked-files=all` does not list `wifi_secrets.h`; `git ls-files` finds 0 matches.
+- [x] `git grep -n -i -E "password|ssid"` shows only the placeholders in `wifi_secrets.example.h`, the README and the code comments.
+- [x] First commit made, repository created and pushed.
 
 ---
 

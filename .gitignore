@@ -1,0 +1,12 @@
+# Local Wi-Fi credentials (copy the *.example.h template instead)
+**/src/wifi_secrets.h
+
+# PlatformIO build output
+.pio/
+
+# Bob / editor settings (.bob/mcp.json holds an access token)
+.bob/
+.vscode/
+
+# OS artifacts
+.DS_Store

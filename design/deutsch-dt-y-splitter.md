@@ -21,6 +21,10 @@ MDI box  ──  [end A: DT receptacle, female]
 
 All six signals reach the tachometer unmodified. Only GND, CAN_H and CAN_L of the extension cable are connected to the board (pins 4, 5 and 2, see section 4). The tachometer and MDI box see no change in electrical loading.
 
+The finished harness: the two Deutsch DT connectors (end A and end B), the blue butt splices where the extension cable joins the six wires, and the long extension cable ending in a green plug for the board's CAN 1 terminal.
+
+![The finished Y-cable: two Deutsch DT connectors, blue butt splices, and the extension cable with a green 3-pole plug](../images/Y-cable.png)
+
 ---
 
 ## 2. Connector Types

@@ -124,7 +124,19 @@ How this was found (wires not yet on the board):
 
 ---
 
-## 7. Verification Before Power-On
+## 7. Installed on the Boat
+
+**At the board.** The extension cable of the Y-cable goes to the CAN 1 screw terminal. The NMEA 2000 spur cable is connected to the CAN 2 terminal, and the board is powered with 12 V and ground taken from the NMEA 2000 backbone (the ground is bridged to the backbone ground, see the [troubleshooting list in the README](../README.md#troubleshooting-nmea-2000)).
+
+![The Y-cable, the NMEA 2000 spur cable and the 12 V power connected to the board](../images/Y-cable%20connected%20to%20board%20Medium.jpeg)
+
+**At the tachometer.** The Y-cable sits between the MDI harness and the VDO tachometer: the grey Deutsch DT connector, the blue butt splices, and the extension cable that runs to the board.
+
+![The Y-cable connected to the VDO tachometer](../images/Y-cable%20connected%20to%20tachometer%20Medium.jpeg)
+
+---
+
+## 8. Verification Before Power-On
 
 | Check | Expected |
 | :--- | :--- |
